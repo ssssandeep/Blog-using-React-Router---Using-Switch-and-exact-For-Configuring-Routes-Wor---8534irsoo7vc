@@ -12,8 +12,7 @@ export default function Blog() {
         <nav>
           <Link to="/">Home</Link>
           <NavLink to={'/about'}>About</NavLink>
-          <NavLink to={'/posts'}>PostList</NavLink>
-          <NavLink to={'/posts/:id'}>PostDetail</NavLink>
+          <NavLink to={'/posts'}>Posts</NavLink>
         </nav>
   
         <Switch>
